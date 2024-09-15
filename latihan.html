@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    #bg1{background-color:bisque}
+    </style>
+    <title>Sistem Infromasi Pendaftaran Anggota Perpustakaan Online</title>
+</head>
+<body id="bg1">
+    <center>
+        <img src="kripto.webp" width="10%%">
+    <h1> SISTEM INFORMASI PENDAFTARAN ANGGOTA PERPUSTAKAAN ONLINE</h1>
+    </center>
+    <form action="register.php" method="POST">
+        <fieldset>
+            <legend> Identitas </legend>
+            <p>
+                <label> Username :</label>
+                <input type="text" name="username">
+            </p>
+
+            <p>
+                <label>Password :</label>
+                <input type="password" name="password">
+            </p>
+
+            <p>
+                <label>Fakultas</label>
+                <select name="fakultas">
+                    <option value="FKIP">FKIP</option>
+                    <option value="FMIPA">FMIPA</option>
+                    <option value="FIB">FIB</option>
+                    <option value="FEB">FEB</option>
+                </select>
+            </p>
+
+            <p>
+                <label> Tanggal Lahir</label>
+                <input type="date" name="tgllahir">
+            </p>
+
+            <p>
+                <label>Jenis Kelamin</label>
+                <select name="jeniskelamin">
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Tipe Anggota</label>
+                <select name="tpanggota">
+                    <option value="Bronze">Bronze</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Gold">Gold</option>
+                </select>
+            </p>
+
+            <p>
+                <label> Alamat Email :</label>
+                <input type="text">
+            </p>
+
+            <p>
+                <label> No HP :</label>
+                <input type="text">
+            </p>
+
+            <p>
+                <input type="Submit" value="Simpan">
+                <input type="Reset" value="Reset">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
